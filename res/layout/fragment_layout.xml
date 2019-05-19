@@ -1,0 +1,49 @@
+<com.example.healthcare.dashboard.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+	<!--  News Feed Button -->
+    <Button
+        android:id="@+id/btn_pedometer"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_newsfeed"
+        android:text="Pedometer" />
+    
+	<!--  Friends Button -->
+    <Button
+        android:id="@+id/btn_BMI"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_friends"
+        android:text="BMI calculator" />
+    
+	<!--  Messages Button -->
+    <Button
+        android:id="@+id/btn_medicine"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_messages"
+        android:text="Pills reminder" />
+	
+    <!--  Places Button -->
+    <Button
+        android:id="@+id/btn_emer"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_places"
+        android:text="Emergency SOS" />
+
+    <!--  Events Button -->
+    <Button
+        android:id="@+id/btn_workout"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_events"
+        android:text="Workout" />
+
+    <!--  Photos Button -->
+    <Button
+        android:id="@+id/btn_photos"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_photos"
+        android:text="about us" />
+
+</com.example.healthcare.dashboard.DashboardLayout>
